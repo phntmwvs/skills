@@ -1,0 +1,56 @@
+{
+  "seeker": {
+    "name": "Full Name",
+    "notes": "Anything the brief should respect: e.g. prefers TTS summaries, entry-level only, career-changer, will not relocate."
+  },
+
+  "recipients": ["you@example.com"],
+  "email_from": "jobs",
+  "subject_prefix": "Job brief",
+
+  "min_salary_usd": 60000,
+  "max_jobs": 10,
+
+  "queries": [
+    ["customer success specialist remote", "united states"],
+    ["onboarding specialist remote", "united states"],
+    ["customer success", "your city, your state"]
+  ],
+
+  "strong_title_keywords": [
+    "onboarding", "implementation", "customer success", "client success",
+    "customer experience", "customer support"
+  ],
+
+  "relevant_title_keywords": [
+    "onboarding", "implementation", "customer success", "client success",
+    "customer experience", "customer support", "support specialist"
+  ],
+
+  "tool_keywords": [
+    "salesforce", "hubspot", "zendesk"
+  ],
+
+  "exclude_title_keywords": [
+    "director", "head of", "senior", "sr.", "principal", "vice president",
+    "intern", "engineer", "developer", "account executive"
+  ],
+
+  "exclude_location_keywords": [
+    "europe", "emea", "uk only", "london", "germany", "france",
+    "canada only", "australia only", "india", "philippines"
+  ],
+
+  "allowed_locations": ["your city", "your state"],
+  "remote_only": true,
+
+  "sources": {
+    "adzuna": true,
+    "serpapi": false,
+    "remotive": true,
+    "remoteok": true,
+    "jobicy": true
+  },
+
+  "state_dir": "~/.hermes/jobs"
+}
